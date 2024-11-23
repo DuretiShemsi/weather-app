@@ -44,11 +44,11 @@ This is a web application that provides real-time weather information for any ci
 ### Steps
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/weather-info-app.git
+   git clone git@github.com:DuretiShemsi/weather-app.git
 
 2. Navigate to the project folder:
    ```bash
-    cd weather-info-app
+    cd weather-app
 
 3. Open the index.html file in your browser.
 
