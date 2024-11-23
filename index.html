@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Weather App</h1>
+    <nav>
+      <button id="temp-nav" class="nav-btn">Temperature</button>
+      <button id="condition-nav" class="nav-btn">Conditions</button>
+    </nav>
+  </header>
+
+  <main>
+    <div id="search-container">
+      <input
+        type="text"
+        id="city-input"
+        placeholder="Enter city name"
+        aria-label="City Name"
+      />
+      <button id="fetch-weather" class="btn">Get Weather</button>
+    </div>
+    <section id="weather-display" class="weather-section">
+      <h2>Welcome to the Weather App</h2>
+      <p>Search for your city's current weather above.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Weather data provided by <a href="https://open-meteo.com" target="_blank">Open-Meteo</a>.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
